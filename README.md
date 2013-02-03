@@ -41,6 +41,7 @@ liszt
 viszi
 tiszt
 …
+
 4. Hozzon létre egy tömb vagy lista adatszerkezetet, és ebbe gyűjtse ki a fájlban található ötkarakteres szavakat! A szoveg.txt állomány legfeljebb 1000 darab ötkarakteres szót
 tartalmaz. Kérjen be a felhasználótól egy 3 karakteres szórészletet! Írja ki a képernyőre a szólétra építés szabályai szerint hozzá tartozó ötkarakteres szavakat a tárolt adathalmazból!
 A kiírásnál a szavakat egy-egy szóköz válassza el! (Teszteléshez használhatja például az „isz” vagy „obo” szórészleteket, mert ezekhez a megadott szövegállományban több
@@ -48,7 +49,11 @@ létraszó is tartozik.)
 
 5. Az eltárolt ötkarakteres szavakból csoportosítsa azokat a szavakat, melyek ugyanannak a hárombetűs szórészletnek a létraszavai! Hozzon létre egy letra.txt állományt,
 amelybe ezeket a szavakat írja az alábbiak szerint:
+
 • minden szó külön sorba kerüljön;
+
 • csak olyan szó szerepeljen az állományban, aminek van legalább egy párja, amivel egy létrát alkotnak (azaz első és utolsó karakter nélkül megegyeznek);
+
 • az egy létrához tartozó szavak közvetlenül egymás után helyezkedjenek el;
+
 • két létra szavai között egy üres elválasztó sor legyen!
